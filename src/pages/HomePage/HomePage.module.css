@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(191, 194, 217);
+}
+
+.gif {
+  width: 450px;
+  height: 300px;
+  display: block;
+  border: none;
+  pointer-events: none;
+}
+
+.text {
+  font-size: 22px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}

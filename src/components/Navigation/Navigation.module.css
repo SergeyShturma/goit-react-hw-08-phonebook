@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  width: 100%;
+}
+
+.logoName {
+  font-weight: bold;
+  font-size: 32px;
+  color: #96a5b7;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffff;
+  text-decoration: none;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.link:hover {
+  color: #e7a843;
+}
+
+.active {
+  color: #80c7ee;
+}
+
+.active:hover {
+  color: #fe3a3a;
+}

@@ -1,0 +1,12 @@
+.contactsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 24px;
+}
+
+.title {
+  text-align: center;
+}
